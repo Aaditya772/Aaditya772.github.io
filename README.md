@@ -5,7 +5,5 @@ Hello There!
 Welcome to my SNHU CS 499 Final Project!
 
 Code Review:
-https://youtu.be/jj21c3LnnqM
 
-
-
+[![Watch the video](https://youtu.be/jj21c3LnnqM)](https://youtu.be/jj21c3LnnqM)
