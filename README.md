@@ -2,13 +2,13 @@
 
 Hello There!
 
-Welcome to my SNHU CS 499 Final Project!
+## Welcome to my SNHU CS 499 Final Project!
 
-Code Review:
+# Code Review:
 
 [![Click Here](https://img.youtube.com/vi/jj21c3LnnqM/maxresdefault.jpg)](https://www.youtube.com/watch?v=jj21c3LnnqM)
 
-Enhancement One: Software Engineering and Design
+# Enhancement One: Software Engineering and Design
 
    The artifact that I used for category/enhancement one is the java based android app developed in CS 360: Mobile Architecture and Programming a few months ago. In this course, I had to develop an android app in java which served the purpose of providing a secure database with the ability to add and remove items. The app also required the ability for users to login and save their database data and remain separate from other users or accounts. An optionable feature for notifying users when an item is low through their phone number was also required and implemented. In the process of working on the project for the class, I learned how to implement java coding best practices to create a secure login and usable database for storing items. I also learned to incorporate SQLite to save the database data on the app. I additionally learned how to connect the app with hardware features such as for the sms notification feature and learned to write in xml to create professional UI/UX layouts and features.
 
@@ -18,8 +18,16 @@ Enhancement One: Software Engineering and Design
    In the process of enhancing and modifying the artifact, I learned the importance of having thorough comments throughout the code. When starting the implementation, I had to first fix the original code as per the code review that was made in the previous module. In doing so, I had to spend time understanding my own code because I had made it a few months ago. For the parts where I had included comments, it was easier and faster but for files that were not commented, I had to spend extra time. Another thing I learned is new coding features such as adding a character count to the username and password entries and adding an eye toggle to show or hide password characters. This happened when I was reviewing the code and found a system warning which said that the space for entering characters had to be at least 48 dp in height. While fixing it, I decided to improve the layout by adding such features and explored various android documentations to see how I can add it properly. Another thing I learned was how to update the app logos and icons efficiently. I wanted to add a logo to the login page for better professionalism and while doing so, I learned that instead of creating an image and manually replacing it, there is a feature in android studio through which I can add an image one time, and it automatically replaces all associated files as well as updates their resolutions. 
    Some challenges I faced when implementing my enhancement was the status bar icons being light instead of dark on the light background of both the signup page as well as login page. I also encountered a problem where the action bar was being shown on both these pages. I had to fix that by adding code to both classes to forcefully change the status bar colors and hide the action bar because it is not needed. Another challenge that I had encountered was that after a user creates a new account and then accesses the inventory page, when clicking the back button, instead of returning to the login screen, it returns to the create account page. I was able to fix this with a simple solution of using finish() to close the screen so that it doesn’t continue running in the background.
 
-Enhancement Two: Algorithms and Data Structures
+# Enhancement Two: Algorithms and Data Structures
 
-Enhancement Three: Databases
+   The artifact that I used for category/enhancement two is the java based android app developed in CS 360: Mobile Architecture and Programming a few months ago. In this course, I had to develop an android app in java which served the purpose of providing a secure database with the ability to add and remove items. The app also required the ability for users to login and save their database data and remain separate from other users or accounts. An optionable feature for notifying users when an item is low through their phone number was also required and implemented. In the process of working on the project for the class, I learned how to implement java coding best practices to create a secure login and usable database for storing items. I also learned to incorporate SQLite to save the database data on the app. I additionally learned how to connect the app with hardware features such as for the sms notification feature and learned to write in xml to create professional UI/UX layouts and features.
 
-Professional Self-Assessment
+   I selected this artifact because it specifically aligns with my career goals of focusing on app development. Through this artifact, I am able to showcase my fluency in coding in java (which is popular for android apps) and my ability to plan and execute feature upgrades and implementations for an app. I am also able to showcase my ability to use an Integrated Development Environment (Android Studio) which is popular in the professional world. Another skill I showcase is the ability to take existing code and improve it in terms of adding detailed comments from my understanding of the current code and improving functionality for better security and efficiency. In the real world, I am very likely to encounter projects in which a client already has an app which I will have to build on and upgrade and so these skills help me prove my ability to complete something like this.
+   In this enhancement specifically, I first researched ideal ways to implement search features and after selecting an appropriate method that is most compatible for the needs of the app, I started implementing it into the system. I began by replacing the built in action bar with my own tool bar which would hold the search feature. After that, I created the logic in the java files related to the inventory and finally connected everything for the final feature. Through this, I am able to showcase my mastery of analyzing current data structures and algorithms of the app and expanding it to implement a related feature that utilizes data structures and algorithms or builds on the current processes.
+
+As I was creating the search feature and implementing the enhancement, some things I learned were how to replace the in-built action bar with my own tool bar. I additionally was able to strengthen my skills in SQLite queries to develop the search feature and allow it to search and retrieve only the items that belong to the specific account of the user. 
+	Some challenges I faced was the toolbox disappearing when trying to implement it and the app crashing immediately upon logging in. I later discovered that the error was due to misplacing the menu xml file in the wrong directory. Another challenge I encountered was the search text and icon being dark instead of being light which is required for the darker background.
+
+# Enhancement Three: Databases
+
+# Professional Self-Assessment
