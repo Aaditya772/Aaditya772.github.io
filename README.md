@@ -2,6 +2,8 @@
 
 ## Hello! Welcome to my SNHU CS 499 Final Project!
 
+# Professional Self-Assessment
+
 # Code Review:
 
 [![Click Here](https://img.youtube.com/vi/jj21c3LnnqM/maxresdefault.jpg)](https://www.youtube.com/watch?v=jj21c3LnnqM)
@@ -27,5 +29,3 @@ As I was creating the search feature and implementing the enhancement, some thin
 	Some challenges I faced was the toolbox disappearing when trying to implement it and the app crashing immediately upon logging in. I later discovered that the error was due to misplacing the menu xml file in the wrong directory. Another challenge I encountered was the search text and icon being dark instead of being light which is required for the darker background.
 
 # Enhancement Three: Databases
-
-# Professional Self-Assessment
