@@ -1,6 +1,6 @@
 # SNHU CS 499 Final Project Capstone (Aaditya772.github.io)
 
-## <p align="center">### Hello! Welcome to my SNHU CS 499 Final Project!</p>
+## <p align="center">Hello! Welcome to my SNHU CS 499 Final Project!</p>
 
 # Professional Self-Assessment:
 
