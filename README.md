@@ -13,21 +13,16 @@ For Software Engineering and Design, I decided to implement an additional separa
 
 <dl>
 <dd> &emsp; 1. Employ strategies for building collaborative environments that enable diverse audiences to support organizational decision-making in the field of computer science. This course outcome was addressed through the development of multiple databases in the inventory manager app to allow a more diverse range of individuals to utilize it by organizing larger amounts of information into a single system which multiple individuals can access. Additionally, the code for this app was published to github allowing other developers to view and benefit from the open source project. </dd>
-</dl>
 
-<dl>
 <dd> &emsp; 2. Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts. This course outcome was addressed through the designing of the java based inventory manager app (simple user facing interface fit for inventory management and organization without a need for technical knowledge), reviewing its code through a thorough code review, and publishing it.</dd>
+
+<dd> &emsp; 3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. This course outcome was addressed through the development of a search feature for the inventory catalog. The search feature utilized algorithmic principles to successfully retrieve specific sqlite entries for a specific user which matches the characters typed into the search bar. There were multiple ways of creating the search feature and after weighing the trade-off, the quicker but simpler method was deemed best fit. </dd>
+
+<dd> &emsp; 4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This course outcome was addressed through the development of unique sql queries to perform CRUD functions for the multiple databases and multiple items for each unique user. Along with this, the Android Studio IDE was used to develop effective java functions to connect all the user facing interface features (xml) with the logic and methods. </dd>
+
+
+<dd> &emsp; 5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This course outcome was addressed through the development of a separate sign up page as well as a password double security check. Additionally, all input fields were restricted to a limited number and type of characters (ex. Numbers for item entries, masked characters for passwords). For the sqlite queries, all fields were checked for existence before accessing and modifying along with closing processes once done so that they do not remain active and open in the background. </dd>
 </dl>
-
-<dl>
-<dd> &emsp; 3. Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design choices. This course outcome was addressed through the development of a search feature for the inventory catalog. The search feature utilized algorithmic principles to successfully retrieve specific sqlite entries for a specific user which matches the characters typed into the search bar. There were multiple ways of creating the search feature and after weighing the trade-off, the quicker but simpler method was deemed best fit. 
-</dl>
-
-> &emsp; 4. Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. This course outcome was addressed through the development of unique sql queries to perform CRUD functions for the multiple databases and multiple items for each unique user. Along with this, the Android Studio IDE was used to develop effective java functions to connect all the user facing interface features (xml) with the logic and methods. 
-
-
-> &emsp; 5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This course outcome was addressed through the development of a separate sign up page as well as a password double security check. Additionally, all input fields were restricted to a limited number and type of characters (ex. Numbers for item entries, masked characters for passwords). For the sqlite queries, all fields were checked for existence before accessing and modifying along with closing processes once done so that they do not remain active and open in the background.
-
 
 # Code Review:
 
