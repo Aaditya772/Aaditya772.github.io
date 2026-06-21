@@ -1,4 +1,4 @@
-<h1 align="center">Hello! Welcome to my SNHU CS 499 Final Project!</h3>
+# Hello! Welcome to my SNHU CS 499 Final Project!
 
 ## Professional Self-Assessment:
 
