@@ -2,7 +2,7 @@
 
 ### <p align="center">Hello! Welcome to my SNHU CS 499 Final Project!</p>
 
-# Professional Self-Assessment:
+## Professional Self-Assessment:
 
 &emsp; My experience at SNHU while pursuing my bachelors degree in computer science has been a very rich experience. Throughout the coursework, I was able to learn about many fundamental computer science concepts and principles as well skills which I was able to practice and strengthen through projects and assignments. Throughout the different classes, I also got the opportunity to collaborate and discuss with peers and broaden my knowledge in the field. Instructors and professors from many different courses also helped me grow and master the concepts taught in each of the classes. 
 
@@ -24,11 +24,11 @@ For Software Engineering and Design, I decided to implement an additional separa
 <dd> &emsp; 5. Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources. This course outcome was addressed through the development of a separate sign up page as well as a password double security check. Additionally, all input fields were restricted to a limited number and type of characters (ex. Numbers for item entries, masked characters for passwords). For the sqlite queries, all fields were checked for existence before accessing and modifying along with closing processes once done so that they do not remain active and open in the background. </dd>
 </dl>
 
-# Code Review:
+## Code Review:
 
 [![Click Here](https://img.youtube.com/vi/jj21c3LnnqM/maxresdefault.jpg)](https://www.youtube.com/watch?v=jj21c3LnnqM)
 
-# Enhancement One: Software Engineering and Design
+## Enhancement One: Software Engineering and Design
 
 Link in Repository: https://github.com/Aaditya772/Aaditya772.github.io/blob/7464438ad17869c5780d0e8868e46cb0b6b26484/Enhancement%20One.zip
 
@@ -42,7 +42,7 @@ Original: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4
 &emsp; In the process of enhancing and modifying the artifact, I learned the importance of having thorough comments throughout the code. When starting the implementation, I had to first fix the original code as per the code review that was made in the previous module. In doing so, I had to spend time understanding my own code because I had made it a few months ago. For the parts where I had included comments, it was easier and faster but for files that were not commented, I had to spend extra time. Another thing I learned is new coding features such as adding a character count to the username and password entries and adding an eye toggle to show or hide password characters. This happened when I was reviewing the code and found a system warning which said that the space for entering characters had to be at least 48 dp in height. While fixing it, I decided to improve the layout by adding such features and explored various android documentations to see how I can add it properly. Another thing I learned was how to update the app logos and icons efficiently. I wanted to add a logo to the login page for better professionalism and while doing so, I learned that instead of creating an image and manually replacing it, there is a feature in android studio through which I can add an image one time, and it automatically replaces all associated files as well as updates their resolutions.  
 &emsp; Some challenges I faced when implementing my enhancement was the status bar icons being light instead of dark on the light background of both the signup page as well as login page. I also encountered a problem where the action bar was being shown on both these pages. I had to fix that by adding code to both classes to forcefully change the status bar colors and hide the action bar because it is not needed. Another challenge that I had encountered was that after a user creates a new account and then accesses the inventory page, when clicking the back button, instead of returning to the login screen, it returns to the create account page. I was able to fix this with a simple solution of using finish() to close the screen so that it doesn’t continue running in the background.
 
-# Enhancement Two: Algorithms and Data Structures
+## Enhancement Two: Algorithms and Data Structures
 
 Link in Repository: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4232ca1851d6d5071391f813b9e/Enhancement%20Two.zip
 
@@ -56,7 +56,7 @@ Original: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4
 &emsp; As I was creating the search feature and implementing the enhancement, some things I learned were how to replace the in-built action bar with my own toolbar. I additionally was able to strengthen my skills in SQLite queries to develop the search feature and allow it to search and retrieve only the items that belong to the specific account of the user.
 Some challenges I faced was the toolbox disappearing when trying to implement it and the app crashing immediately upon logging in. I later discovered that the error was due to misplacing the menu xml file in the wrong directory. Another challenge I encountered was the search text and icon being dark instead of being light which is required for the darker background.
 
-# Enhancement Three: Databases
+## Enhancement Three: Databases
 
 Link in Repository: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4232ca1851d6d5071391f813b9e/Enhancement%20Three.zip
 
