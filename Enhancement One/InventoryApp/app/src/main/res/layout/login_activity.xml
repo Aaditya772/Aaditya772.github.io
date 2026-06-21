@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    File: login_activity.xml
+    Description: Initial login page through which users can enter credentials and access their account.
+    Author: Aaditya Fadnavis
+    Date: May 18, 2026
+
+    Details: Original file used linear layout, changed to constraint layout for long term advantage.
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="@color/light_white">
+
+    <!-- App Logo (Warehous Icon) -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_launcher_foreground"
+        android:contentDescription="@string/app_logo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/titleText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintVertical_chainStyle="packed"
+        android:layout_marginTop="152dp"
+        android:layout_marginBottom="36dp"
+        app:tint="@color/grey" />
+
+    <!-- Inventory Manager Login (Title Header) -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/inventory_manager_login"
+        android:textFontWeight="999"
+        android:textSize="29sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/grey"
+        app:layout_constraintTop_toBottomOf="@id/logoImage"
+        app:layout_constraintBottom_toTopOf="@id/username_layout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="22dp"/>
+
+    <!-- Username (Wrapper Layout) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/username_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        app:boxBackgroundColor="@color/light_white"
+        app:layout_constraintTop_toBottomOf="@id/titleText"
+        app:layout_constraintBottom_toTopOf="@id/password_layout"
+        android:layout_marginBottom="6dp">
+
+        <!-- Username (Input Field) -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textNoSuggestions"
+            android:textColor="@color/dark_blue"
+            android:textColorHint="@color/grey"
+            android:maxLength="30"/> <!-- Added max characters for security. -->
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Password (Wrapper Layout) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:passwordToggleEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        app:boxBackgroundColor="@color/light_white"
+        app:layout_constraintTop_toBottomOf="@id/username_layout"
+        app:layout_constraintBottom_toTopOf="@id/login_button"
+        android:layout_marginBottom="14dp">
+
+        <!-- Password (Input Field) -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textPassword"
+            android:textColor="@color/dark_blue"
+            android:textColorHint="@color/grey"
+            android:maxLength="30"/> <!-- Added max characters for security. -->
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Login (Button) -->
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        app:cornerRadius="20dp"
+        android:textColor="@color/light_white"
+        app:backgroundTint="@color/dark_blue"
+        app:layout_constraintTop_toBottomOf="@id/password_layout"
+        app:layout_constraintBottom_toTopOf="@id/create_account_button"/>
+
+    <!-- Create Account (Button) -->
+    <Button
+        android:id="@+id/create_account_button"
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_new_account"
+        android:textColor="@color/dark_blue"
+        app:layout_constraintTop_toBottomOf="@id/login_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="16dp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

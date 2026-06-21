@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    File: signup_activity.xml
+    Description: Create account page through which users can enter a username and password
+    and register themselves into the system to be able to login using the login page.
+    Author: Aaditya Fadnavis
+    Date: May 20, 2026
+-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_vertical"
+    android:background="@color/light_white">
+
+    <!-- Create Account (Title Header) -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:textColor="@color/grey"
+        android:textSize="28sp"
+        android:textFontWeight="999"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp" />
+
+    <!-- Sign Up Username (Wrapper Layout) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signup_username_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        app:boxBackgroundColor="@color/light_white"
+        android:layout_marginBottom="1dp"
+        android:padding="1dp">
+
+        <!-- Sign Up Username (Input Field) -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signup_username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textNoSuggestions"
+            android:textColor="@color/dark_blue"
+            android:textColorHint="@color/grey"
+            android:maxLength="30"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Sign Up Password (Wrapper Layout) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signup_password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:passwordToggleEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        app:boxBackgroundColor="@color/light_white"
+        android:layout_marginBottom="1dp"
+        android:padding="1dp">
+
+        <!-- Sign Up Password (Input Field) -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signup_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textPassword"
+            android:textColor="@color/dark_blue"
+            android:textColorHint="@color/grey"
+            android:maxLength="30"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Sign Up Confirm Password (Wrapper Layout) -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/signup_confirm_password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/confirm_password"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:passwordToggleEnabled="true"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        app:boxBackgroundColor="@color/light_white"
+        android:layout_marginBottom="20dp"
+        android:padding="1dp">
+
+        <!-- Sign Up Confirm Password (Input Field) -->
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/signup_confirm_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:inputType="textPassword"
+            android:textColor="@color/dark_blue"
+            android:textColorHint="@color/grey"
+            android:maxLength="30"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Create Account (Button) -->
+    <Button
+        android:id="@+id/create_account_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_account"
+        android:padding="12dp"
+        app:cornerRadius="20dp"/>
+
+</LinearLayout>

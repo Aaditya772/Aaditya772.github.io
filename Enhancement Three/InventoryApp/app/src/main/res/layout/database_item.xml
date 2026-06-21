@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    File: database_item.xml
+    Description: Individual database entry item which will be listed in the main databases page.
+    Author: Aaditya Fadnavis
+    Date: June 5, 2026
+-->
+
+<!-- CardView (Individual Item) -->
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardBackgroundColor="@color/blue_white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="horizontal">
+
+        <!-- Database Name (Title) -->
+        <TextView
+            android:id="@+id/database_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"/>
+
+        <!-- Description/Settings Access Image -->
+        <ImageButton
+            android:id="@+id/database_menu"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/description"
+            android:src="@android:drawable/ic_menu_agenda"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

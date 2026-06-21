@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    File: AndroidManifest.xml
+    Description: Android Manifest File which holds app settings,
+    configurations, permissions, and activities.
+    Author: Aaditya Fadnavis
+    Date: Jun 3, 2026
+-->
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- SMS Notification Permission and Declaration -->
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-feature android:name="android.hardware.telephony" android:required="false" />
+
+    <!-- Application Settings and Configurations -->
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.InventoryApp">
+
+        <!-- Login Activity (Login Screen) -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- SignUp Activity (Create Account Page) -->
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+
+        <!-- Database List Activity (Databases Catalog Page) -->
+        <activity
+            android:name=".DatabaseListActivity"
+            android:exported="false" />
+
+        <!-- Inventory Activity (Database Home Page) -->
+        <activity
+            android:name=".InventoryActivity"
+            android:exported="false" />
+
+    </application>
+
+</manifest>

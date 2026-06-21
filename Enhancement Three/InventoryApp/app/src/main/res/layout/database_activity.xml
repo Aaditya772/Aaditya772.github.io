@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    File: database_activity.xml
+    Description: Databases home page through which users can access, view, and modify saved databases.
+    Author: Aaditya Fadnavis
+    Date: June 5, 2026
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_white">
+
+    <!-- Database Name (Title Header) -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_blue"
+        android:paddingTop="60dp"
+        android:paddingBottom="24dp"
+        app:title="Databases"
+        app:titleTextColor="@color/light_white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- CardView (Background Aesthetic) -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/database_card"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_margin="12dp"
+        app:cardCornerRadius="20dp"
+        app:cardBackgroundColor="@color/blue_white"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <!-- Database Items List (RecyclerView) -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/database_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <!-- Add New Database (Button) -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/add_database_fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:contentDescription="@string/add_database"
+        app:backgroundTint="@color/dark_blue"
+        app:srcCompat="@android:drawable/ic_input_add"
+        app:tint="@color/light_white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:fabSize="normal"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

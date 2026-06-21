@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+    File: add_database.xml
+    Description: Add new database popup widget accessed by clicking the add button in the
+    database home page.
+    Author: Aaditya Fadnavis
+    Date: June 5, 2026
+-->
+
+<androidx.constraintlayout.widget.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@color/transparent">
+
+<!-- Add Database Card -->
+<androidx.cardview.widget.CardView
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_margin="20dp"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="12dp"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:background="@color/white">
+
+        <!-- Add New Database Item (Title) -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_new_database"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/grey"
+            android:layout_marginBottom="16dp"/>
+
+        <!-- Database Name (Wrapper Layout) -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/database_name"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            app:boxBackgroundColor="@color/white">
+
+            <!-- Database Name (Input Field) -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_database_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapWords"
+                android:textColor="@color/dark_blue"
+                android:textColorHint="@color/grey"
+                android:maxLength="30" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Description (Wrapper Layout) -->
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description"
+            style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+            app:boxBackgroundColor="@color/white">
+
+            <!-- Description (Input Field) -->
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/edit_database_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dark_blue"
+                android:textColorHint="@color/grey"
+                android:inputType="text"
+                android:maxLength="1000" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <!-- Add Database (Button) -->
+        <Button
+            android:id="@+id/btn_save_database"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_database"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/dark_blue"
+            android:textColor="@color/light_white"
+            app:cornerRadius="20dp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
