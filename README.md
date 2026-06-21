@@ -46,7 +46,7 @@ For Software Engineering and Design, I decided to implement an additional separa
 
 ## Enhancement Two: Algorithms and Data Structures
 
-[![Download Zip](https://img.shields.io/badge/Download-Enhancement_Two-blue?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Two.zip)
+[![Download Zip](https://img.shields.io/badge/Download-Enhancement_Two-red?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Two.zip)
 
 [![Download Zip](https://img.shields.io/badge/Download-Original-green?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Original.zip)
 
@@ -62,7 +62,7 @@ Some challenges I faced was the toolbox disappearing when trying to implement it
 
 ## Enhancement Three: Databases
 
-[![Download Zip](https://img.shields.io/badge/Download-Enhancement_Three-blue?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Three.zip)
+[![Download Zip](https://img.shields.io/badge/Download-Enhancement_Three-orange?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Three.zip)
 
 [![Download Zip](https://img.shields.io/badge/Download-Original-green?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Original.zip)
 
