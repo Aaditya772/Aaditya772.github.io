@@ -1,5 +1,5 @@
 # Hello! Welcome to my SNHU CS 499 Final Project!  
-
+<br>
 
 ## Professional Self-Assessment:
 
