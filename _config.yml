@@ -1,6 +1,3 @@
 theme: jekyll-theme-midnight
 title: "SNHU CS 499 Final Project Capstone (Aaditya772.github.io)"
-include: ["Enhancement One.zip"]
-include: ["Enhancement Two.zip"]
-include: ["Enhancement Three.zip"]
-include: ["Original.zip"]
+include: ["Enhancement One.zip", "Enhancement Two.zip", "Enhancement Three.zip", "Original.zip"]
