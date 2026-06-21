@@ -32,6 +32,8 @@ For Software Engineering and Design, I decided to implement an additional separa
 
 Link in Repository: [View Enhancement One](Enhancement%20One.zip)
 
+<a href="Enhancement%20One.zip">Download Enhancement One</a>
+
 Original: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4232ca1851d6d5071391f813b9e/Original.zip
 
 &emsp; The artifact that I used for category/enhancement one is the java based android app developed in CS 360: Mobile Architecture and Programming a few months ago. In this course, I had to develop an android app in java which served the purpose of providing a secure database with the ability to add and remove items. The app also required the ability for users to login and save their database data and remain separate from other users or accounts. An optionable feature for notifying users when an item is low through their phone number was also required and implemented. In the process of working on the project for the class, I learned how to implement java coding best practices to create a secure login and usable database for storing items. I also learned to incorporate SQLite to save the database data on the app. I additionally learned how to connect the app with hardware features such as for the sms notification feature and learned to write in xml to create professional UI/UX layouts and features.
