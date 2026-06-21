@@ -30,13 +30,9 @@ For Software Engineering and Design, I decided to implement an additional separa
 
 ## Enhancement One: Software Engineering and Design
 
-Link in Repository: [View Enhancement One](Enhancement%20One.zip)
-
-<a href="Enhancement%20One.zip">Download Enhancement One</a>
-
 [![Download Zip](https://img.shields.io/badge/Download-Enhancement_One-blue?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20One.zip)
 
-Original: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4232ca1851d6d5071391f813b9e/Original.zip
+[![Download Zip](https://img.shields.io/badge/Download-Original-green?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Original.zip)
 
 &emsp; The artifact that I used for category/enhancement one is the java based android app developed in CS 360: Mobile Architecture and Programming a few months ago. In this course, I had to develop an android app in java which served the purpose of providing a secure database with the ability to add and remove items. The app also required the ability for users to login and save their database data and remain separate from other users or accounts. An optionable feature for notifying users when an item is low through their phone number was also required and implemented. In the process of working on the project for the class, I learned how to implement java coding best practices to create a secure login and usable database for storing items. I also learned to incorporate SQLite to save the database data on the app. I additionally learned how to connect the app with hardware features such as for the sms notification feature and learned to write in xml to create professional UI/UX layouts and features.
 
@@ -50,9 +46,9 @@ Original: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4
 
 ## Enhancement Two: Algorithms and Data Structures
 
-Link in Repository: [View Enhancement Two](Enhancement%20Two.zip)
+[![Download Zip](https://img.shields.io/badge/Download-Enhancement_Two-blue?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Two.zip)
 
-Original: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4232ca1851d6d5071391f813b9e/Original.zip
+[![Download Zip](https://img.shields.io/badge/Download-Original-green?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Original.zip)
 
 &emsp; The artifact that I used for category/enhancement two is the java based android app developed in CS 360: Mobile Architecture and Programming a few months ago. In this course, I had to develop an android app in java which served the purpose of providing a secure database with the ability to add and remove items. The app also required the ability for users to login and save their database data and remain separate from other users or accounts. An optionable feature for notifying users when an item is low through their phone number was also required and implemented. In the process of working on the project for the class, I learned how to implement java coding best practices to create a secure login and usable database for storing items. I also learned to incorporate SQLite to save the database data on the app. I additionally learned how to connect the app with hardware features such as for the sms notification feature and learned to write in xml to create professional UI/UX layouts and features.
 
@@ -66,9 +62,9 @@ Some challenges I faced was the toolbox disappearing when trying to implement it
 
 ## Enhancement Three: Databases
 
-Link in Repository: [View Enhancement Three](Enhancement%20Three.zip)
+[![Download Zip](https://img.shields.io/badge/Download-Enhancement_Three-blue?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Three.zip)
 
-Original: https://github.com/Aaditya772/Aaditya772.github.io/blob/e211fca618daf4232ca1851d6d5071391f813b9e/Original.zip
+[![Download Zip](https://img.shields.io/badge/Download-Original-green?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Original.zip)
 
 &emsp; The artifact that I used for category/enhancement three is the java based android app developed in CS 360: Mobile Architecture and Programming a few months ago. In this course, I had to develop an android app in java which served the purpose of providing a secure database with the ability to add and remove items. The app also required the ability for users to login and save their database data and remain separate from other users or accounts. An optionable feature for notifying users when an item is low through their phone number was also required and implemented. In the process of working on the project for the class, I learned how to implement java coding best practices to create a secure login and usable database for storing items. I also learned to incorporate SQLite to save the database data on the app. I additionally learned how to connect the app with hardware features such as for the sms notification feature and learned to write in xml to create professional UI/UX layouts and features.
 
