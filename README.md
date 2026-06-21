@@ -30,9 +30,9 @@ For Software Engineering and Design, I decided to implement an additional separa
 
 ## Enhancement One: Software Engineering and Design
 
-[![Download Zip](https://img.shields.io/badge/Download-Enhancement_One-blue?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20One.zip)
+[![View Files](https://img.shields.io/badge/View-Enhancement_One-87ceeb?style=for-the-badge&logo=github)](https://github.com/Aaditya772/Aaditya772.github.io/tree/main/Enhancement%20One)
 
-[![View Files](https://img.shields.io/badge/View-Enhancement_One-blue?style=for-the-badge&logo=github)](https://github.com/Aaditya772/Aaditya772.github.io/tree/main/Enhancement%20One)
+[![Download Zip](https://img.shields.io/badge/Download-Enhancement_One-blue?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20One.zip)
 
 [![Download Zip](https://img.shields.io/badge/Download-Original-green?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Original.zip)
 
@@ -47,6 +47,8 @@ For Software Engineering and Design, I decided to implement an additional separa
 &emsp; Some challenges I faced when implementing my enhancement was the status bar icons being light instead of dark on the light background of both the signup page as well as login page. I also encountered a problem where the action bar was being shown on both these pages. I had to fix that by adding code to both classes to forcefully change the status bar colors and hide the action bar because it is not needed. Another challenge that I had encountered was that after a user creates a new account and then accesses the inventory page, when clicking the back button, instead of returning to the login screen, it returns to the create account page. I was able to fix this with a simple solution of using finish() to close the screen so that it doesn’t continue running in the background.
 
 ## Enhancement Two: Algorithms and Data Structures
+
+[![View Files](https://img.shields.io/badge/View-Enhancement_Two-ffadad?style=for-the-badge&logo=github)](https://github.com/Aaditya772/Aaditya772.github.io/tree/main/Enhancement%20Two)
 
 [![Download Zip](https://img.shields.io/badge/Download-Enhancement_Two-red?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Two.zip)
 
@@ -63,6 +65,8 @@ For Software Engineering and Design, I decided to implement an additional separa
 Some challenges I faced was the toolbox disappearing when trying to implement it and the app crashing immediately upon logging in. I later discovered that the error was due to misplacing the menu xml file in the wrong directory. Another challenge I encountered was the search text and icon being dark instead of being light which is required for the darker background.
 
 ## Enhancement Three: Databases
+
+[![View Files](https://img.shields.io/badge/View-Enhancement_Three-ffb703?style=for-the-badge&logo=github)](https://github.com/Aaditya772/Aaditya772.github.io/tree/main/Enhancement%20Three)
 
 [![Download Zip](https://img.shields.io/badge/Download-Enhancement_Three-orange?style=for-the-badge&logo=github)](https://Aaditya772.github.io/Enhancement%20Three.zip)
 
